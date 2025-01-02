@@ -1,6 +1,6 @@
 # vue-project
 
-Ce projet est une application construite avec Vue.js, un framework JavaScript progressif pour construire des interfaces utilisateur modernes et réactives. Il utilise Vite pour un développement rapide et des performances accrues.
+Ce projet est une application construite avec Vue.js, un framework JavaScript progressif pour construire des interfaces utilisateur modernes et réactives. Il utilise Vite pour un développement rapide et des performances accrues. Cette application est un gestionnaire de tache dynamique créé lors du module de Web Engineering.
 
 ## Structure du projet
 
@@ -22,86 +22,65 @@ Assurez-vous que les logiciels suivants sont installés sur votre système :
 
 ## Installation
 
-Clonez ce dépôt sur votre machine locale :
-git clone <URL-du-dépôt>
+- Clonez ce dépôt sur votre machine locale :
+```bash
+git clone https://github.com/Theo-dlrd/tpWebVue.git
+```
 
-Accédez au dossier du projet :
-
+- Accédez au dossier du projet :
+```bash
 cd vue-project
+```
 
-Installez les dépendances :
-
+- Installez les dépendances :
+```bash
 npm install
-# ou
-yarn install
+```
 
-Scripts disponibles
+## Scripts disponibles
 
-Dans le fichier package.json, plusieurs scripts sont configurés :
-
-Démarrer le serveur de développement :
-
+Dans le fichier ``package.json``, plusieurs scripts sont configurés :
+- Démarrer le serveur de développement :
+```bash
 npm run dev
-
+```
 Accédez ensuite à l'application dans votre navigateur à l'adresse http://localhost:3000.
 
-Build pour la production :
-
+- Build pour la production :
+```bash
 npm run build
-
+```
 Les fichiers optimisés pour la production seront générés dans le dossier dist/.
 
-Prévisualiser le build de production :
-
+- Prévisualiser le build de production :
+```bash
 npm run preview
+```
 
-Configuration
+## Configuration
 
-Vite :
-Le fichier vite.config.js contient la configuration de l'environnement de développement et de production. Vous pouvez le modifier pour ajouter des plugins ou configurer des chemins d'accès personnalisés.
+- __Vite__ : Le fichier vite.config.js contient la configuration de l'environnement de développement et de production. Vous pouvez le modifier pour ajouter des plugins ou configurer des chemins d'accès personnalisés.
 
-Environnements :
-Utilisez des fichiers .env pour définir des variables d'environnement. Par exemple :
+- __Environnements__ : Utilisez des fichiers .env pour définir des variables d'environnement. Par exemple : VITE_API_URL=https://api.example.com
 
-VITE_API_URL=https://api.example.com
+## Structure des composants
 
-Structure des composants
-
-Les composants Vue se trouvent dans le dossier src/components/. Voici un exemple de structure :
-
+Les composants Vue se trouvent dans le dossier ``src/components/``. Voici un exemple de structure :
+```bash
 src/
 ├── components/
 │   ├── Header.vue
 │   ├── Footer.vue
 │   └── ExampleComponent.vue
+```
 
-Tests
+## Tests
 
-Si des tests unitaires sont configurés (ex. avec Jest ou Vitest), ils peuvent être exécutés avec :
-
+Pour lancer les tests unitaires, vous pouvez les exécuter avec :
+```bash
 npm run test
+```
 
-Contribution
+## Contribution
 
-Les contributions sont les bienvenues ! Voici comment vous pouvez aider :
-
-Forkez ce répôsitoire.
-
-Créez une branche pour votre fonctionnalité :
-
-git checkout -b feature/ma-fonctionnalite
-
-Faites vos modifications et committez-les :
-
-git commit -m "Ajout de ma fonctionnalité"
-
-Poussez votre branche :
-
-git push origin feature/ma-fonctionnalite
-
-Créez une Pull Request.
-
-Licence
-
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
-
+[Théo DULUARD](theo.duluard@etudiant.univ-rennes.fr)
